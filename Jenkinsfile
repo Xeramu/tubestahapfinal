@@ -325,7 +325,6 @@
 pipeline {
 agent any
 
-```
 environment {
     DOCKER_USERNAME = "umarx"
     IMAGE_TAG = "${BUILD_NUMBER}"
